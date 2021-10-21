@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgencyApp | by Fran Mella</title>
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Eczar&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Hojas de Estilo -->
+    <link rel="stylesheet" href="build/css/app.min.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="header__contenido contenedor">
+            <div class="header__flex">
+                <a href="index.html"><h2 class="header__logo">AppAgency</h2></a>
+
+                <nav class="navegacion">
+                    <div class="navegacion__enlaces">
+                        <a href="#" class="navegacion__enlace">Home</a>
+                        <a href="#" class="navegacion__enlace">Features</a>
+                        <a href="#" class="navegacion__enlace">Services</a>
+                        <a href="#" class="navegacion__enlace">Listed</a>
+                        <a href="#" class="navegacion__enlace">Contact</a>
+                        <a href="#" class="navegacion__opcion">Login</a>
+                        <a href="#" class="navegacion__opcion navegacion__opcion--boton">Register</a>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="portada">
+                <div class="portada__grid">
+                    <div class="portada__contenido">
+                        <p class="portada__welcome">Welcome to AppAgency</p>
+                        <h1 class="portada__heading">Discover a place you'll love to live.</h1>
+                        <p class="portada__info">Get the best real estate deals first, before they hit the mass market! Hot foreclosure deals with one simple search</p>
+
+                        <p class="portada__more">More About Us</p>
+                    </div>
+
+                    <div class="portada__imagen">
+                        <img src="build/img/svg/casa.svg" alt="Imagen Casa Vector">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="principal">
+        <div class="principal__contenedor contenedor">
+            <div class="principal__flex">
+                <div class="principal__info">
+                    <h2 class="principal__logo">AppAgency</h2>
+                    <p class="principal__description">More than 45,000+ companies trust AppAgency</p>
+                </div>
+
+                <div class="principal__calificacion">
+                    <img class="principal__calidad" src="build/img/svg/Star.svg" alt="Imagen Calificacion">
+                    <p class="principal__rating">5 Star Ratings (2k + Review)</p>
+                </div>
+            </div>
+
+            <div class="sponsors">
+                <div class="sponsors__grid">
+                    <div class="sponsor">
+                        <img src="build/img/slacklogo.webp" alt="Logo Slack" class="sponsor__image">
+                    </div>
+                    <div class="sponsor">
+                        <img src="build/img/logoamazon.webp" alt="Logo Amazon" class="sponsor__image">
+                    </div>
+                    <div class="sponsor">
+                        <img src="build/img/woocommercelogo.webp" alt="Logo WooCommerce" class="sponsor__image">
+                    </div>
+                </div>
+            </div>
+
+            <div class="how">
+                <div class="how__contenedor contenedor">
+                    <blockquote class="how__linea"></blockquote>
+                    <h2 class="how__heading">How its works?</h2>
+                    <p class="how__info">Everything you ned to know when you're looking to buy, <span class="how__info--space"> rent, or sell - all in one place.</span></p>
+
+                    <div class="how__grid">
+                        <div class="item">
+                            <div class="item__imagen">
+                                <img src="build/img/svg/iconbuyer.svg" alt="Icono Comprar" class="item__image">
+                            </div>
+                            <div class="item__info">
+                                <h3 class="item__heading">Buyer Guides</h3>
+                                <div class="htb">
+                                    <p class="htb__info">How to buy</p>
+                                    <img src="build/img/svg/flecha.svg" alt="" class="htb__image">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="item__imagen">
+                                <img src="build/img/svg/iconrenter.svg" alt="Icono Alquilar" class="item__image">
+                            </div>
+                            <div class="item__info">
+                                <h3 class="item__heading">Renter Guides</h3>
+                                <div class="htb">
+                                    <p class="htb__info">How to rent</p>
+                                    <img src="build/img/svg/flecha.svg" alt="" class="htb__image">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="item__imagen">
+                                <img src="build/img/svg/iconseller.svg" alt="Icono Vender" class="item__image">
+                            </div>
+                            <div class="item__info">
+                                <h3 class="item__heading">Seller Guides</h3>
+                                <div class="htb">
+                                    <p class="htb__info">How to sell</p>
+                                    <img src="build/img/svg/flecha.svg" alt="" class="htb__image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="how__boton">Sell Full Guidelines</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="featured">
+        <div class="featured__contenedor contenedor">
+            <h2 class="featured__heading">Featured Properties</h2>
+            <div class="featured__info">
+                <p class="featured__text">Everything you need to know when you're looking</p>
+                <div class="wap">
+                    <p class="wap__info">View All Properties</p>
+                    <img src="build/img/svg/flecha.svg" alt="" class="wap__image">
+                </div>
+            </div>
+
+            <div class="featured__grid">
+                <div class="property">
+                    <div class="property__image">
+                        <img src="build/img/card1-image.webp" alt="Imagen Casa">
+                    </div>
+                    <div class="property__info">
+                        <h2 class="property__price">35000€</h2>
+                        <p class="property__address">Federico García Lorca 340, Madrid</p>
+                        <div class="espacio">
+                            <div class="espacio__flex">
+                                <div class="espacio__habitaciones">
+                                    <img src="build/img/svg/camascard.svg" alt="Icono Habitaciones" class="espacio__image">
+                                    <p class="espacio__info">5 Beds</p>
+                                </div>
+                                <div class="espacio__both">
+                                    <img src="build/img/svg/bañocard.svg" alt="Icono Baño" class="espacio__image">
+                                    <p class="espacio__info">2 both</p>
+                                </div>
+                                <div class="espacio__superficie">
+                                    <img src="build/img/svg/espaciocard.svg" alt="Icono Superficie" class="espacio__image">
+                                    <p class="espacio__info">2000 Sqft</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="property">
+                    <div class="property__image">
+                        <img src="build/img/card2-image.webp" alt="Imagen Casa">
+                    </div>
+                    <div class="property__info">
+                        <h2 class="property__price">35000€</h2>
+                        <p class="property__address">Federico García Lorca 340, Madrid</p>
+                        <div class="espacio">
+                            <div class="espacio__flex">
+                                <div class="espacio__habitaciones">
+                                    <img src="build/img/svg/camascard.svg" alt="Icono Habitaciones" class="espacio__image">
+                                    <p class="espacio__info">5 Beds</p>
+                                </div>
+                                <div class="espacio__both">
+                                    <img src="build/img/svg/bañocard.svg" alt="Icono Baño" class="espacio__image">
+                                    <p class="espacio__info">2 both</p>
+                                </div>
+                                <div class="espacio__superficie">
+                                    <img src="build/img/svg/espaciocard.svg" alt="Icono Superficie" class="espacio__image">
+                                    <p class="espacio__info">2000 Sqft</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="property">
+                    <div class="property__image">
+                        <img src="build/img/card3-image.webp" alt="Imagen Casa">
+                    </div>
+                    <div class="property__info">
+                        <h2 class="property__price">35000€</h2>
+                        <p class="property__address">Federico García Lorca 340, Madrid</p>
+                        <div class="espacio">
+                            <div class="espacio__flex">
+                                <div class="espacio__habitaciones">
+                                    <img src="build/img/svg/camascard.svg" alt="Icono Habitaciones" class="espacio__image">
+                                    <p class="espacio__info">5 Beds</p>
+                                </div>
+                                <div class="espacio__both">
+                                    <img src="build/img/svg/bañocard.svg" alt="Icono Baño" class="espacio__image">
+                                    <p class="espacio__info">2 both</p>
+                                </div>
+                                <div class="espacio__superficie">
+                                    <img src="build/img/svg/espaciocard.svg" alt="Icono Superficie" class="espacio__image">
+                                    <p class="espacio__info">2000 Sqft</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="porcentajes">
+        <div class="porcentajes__contenedor contenedor">
+            <div class="porcentajes__grid">
+                <div class="porcentajes__imagen">
+                    <img src="build/img/imagecard.webp" alt="Imagen Card" class="porcentaje__image">
+                </div>
+
+                <div class="porcentajes__info">
+                    <blockquote class="porcentajes__raya"></blockquote>
+                    <h2 class="porcentajes__heading">You've found a neighborhood you love.</h2>
+                    <p class="porcentajes__text">When you own a home, you're committing to living in one location for a while. In a recent Trulia Survey, we found that five out of six respondents said finding the right neighborhood</p>
+                </div>
+            </div>
+
+            <div class="numeros">
+                <div class="numeros__grid">
+                    <div class="numero">
+                        <h2 class="numero__cantidad">2,500</h2>
+                        <p class="numero__info">Homes For Sale</p>
+                    </div>
+
+                    <div class="numero">
+                        <h2 class="numero__cantidad">5,000+</h2>
+                        <p class="numero__info">Homes Recently Sold</p>
+                    </div>
+
+                    <div class="numero">
+                        <h2 class="numero__cantidad">170+</h2>
+                        <p class="numero__info">Price Reduced</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="start">
+                <img src="build/img/svg/home2.svg" alt="Imagen Casa" class="start__image">
+                <div class="start__info">
+                    <h2 class="start__heading">Featured Properties</h2>
+                    <p class="start__text">Everything you need to know when you're looking</p>
+                    <p class="start__boton">Get Started Now</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer contenedor">
+        <div class="footer__grid">
+            <div class="option">
+                <h3 class="option__heading">Product</h3>
+
+                <div class="option__items">
+                    <a href="" class="option__item">Listing</a>
+                    <a href="" class="option__item">Property</a>
+                    <a href="" class="option__item">Agents</a>
+                    <a href="" class="option__item">Blog</a>
+                </div>
+            </div>
+
+            <div class="option">
+                <h3 class="option__heading">Resources</h3>
+
+                <div class="option__items">
+                    <a href="" class="option__item">Our Homes</a>
+                    <a href="" class="option__item">Member Stories</a>
+                    <a href="" class="option__item">Video</a>
+                    <a href="" class="option__item">Free Trial</a>
+                </div>
+            </div>
+
+            <div class="option">
+                <h3 class="option__heading">Company</h3>
+
+                <div class="option__items">
+                    <a href="" class="option__item">Partnerships</a>
+                    <a href="" class="option__item">Terms of use</a>
+                    <a href="" class="option__item">Privacy</a>
+                    <a href="" class="option__item">Sitemap</a>
+                </div>
+            </div>
+
+            <div class="option">
+                <h3 class="option__heading">Get in touch</h3>
+
+                <p class="option__text">You'll find your next home,</p>
+                <p class="option__text">in any style you prefer</p>
+
+                <div class="iconos">
+                    <div class="iconos__icono">
+                        <img src="build/img/svg/facebookicon.svg" alt="Social Media Icono" class="iconos__image">
+                    </div>
+                    <div class="iconos__icono">
+                        <img src="build/img/svg/twittericon.svg" alt="Social Media Icono" class="iconos__image">
+                    </div>
+                    <div class="iconos__icono">
+                        <img src="build/img/svg/linkedinicon.svg" alt="Social Media Icono" class="iconos__image">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="copy">
+            <a href="index.html"><h2 class="copy__logo">AppAgency</h2></a>
+
+            <p class="copy__text">&copy; 2021. All rights reserved.</p>
+        </div>
+        
+    </footer>
+
+
+</body>
+</html>
